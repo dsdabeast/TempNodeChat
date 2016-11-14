@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Node Chat</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div id="content">
+        <h1>W's</h1>
+        <div id="log">
+            
+
+            <div id="user">
+                <span>My Name is:</span>
+                <input id="user-name">
+                <button id="user-save">Save</button>
+            </div>
+            <br>
+            <div id="controls">
+               <div class="message">Message Log:</div>
+                <input id="message" disabled>
+                <br>
+                <button id="send" disabled>Send</button>
+            </div>
+            <br>
+           
+            <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+            <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+            <script src="main.js"></script>
+             <div class="message"></div>
+        </div>
+    </div>
+</body>
+
+</html>
